@@ -1,0 +1,25 @@
+services:
+  api-gateway:
+    build: ./api-gateway
+    ports:
+      - "5000:5000"
+    networks:
+      - sre-network
+
+  auth-service:
+    build: ./auth-service
+    ports:
+      - "5001:5001"
+    networks:
+      - sre-network
+
+  data-service:
+    build: ./data-service
+    ports:
+      - "5002:5002"
+    networks:
+      - sre-network
+
+networks:
+  sre-network:
+    driver: bridge
