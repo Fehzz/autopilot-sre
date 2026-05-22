@@ -23,7 +23,7 @@ An agentic Site Reliability Engineering platform that autonomously monitors, det
 |-------|-------|--------|
 | 1 | Containers and Microservices | Done |
 | 2 | Observability with Prometheus and Grafana | Done |
-| 3 | Chaos Engineering | Upcoming |
+| 3 | Chaos Engineering | Done |
 | 4 | AI Agent | Upcoming |
 | 5 | Terraform and IaC | Upcoming |
 
@@ -31,10 +31,11 @@ An agentic Site Reliability Engineering platform that autonomously monitors, det
 
 Follow the full build on Medium:
 
-- Day 1 — Understanding Docker: https://medium.com/@fehzanvayani/understanding-docker-3830d7e13fcd
-- Day 2 — Docker Compose: https://medium.com/@fehzanvayani/docker-compose-e6fcaa1e5825
+- Day 1 — Docker — Getting Started: https://medium.com/@fehzanvayani/day-1-docker-getting-started
+- Day 2 — Docker Compose and Microservices Networks: https://medium.com/@fehzanvayani/docker-compose-e6fcaa1e5825
 - Day 3 — Prometheus for Observability: https://medium.com/@fehzanvayani/prometheus-for-observability-e1db1260f811
+- Day 4 — Grafana and Chaos Engineering: https://medium.com/@fehzanvayani/day-4-grafana-and-chaos-engineering-08dc68a4b2dc
 
 ## Author
 
-[Fehzz](https://github.com/Fehzz)
+[Fehzz](https://github.com/Fehzz) | [LinkedIn](https://www.linkedin.com/in/fehzanvayani/)
