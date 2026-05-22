@@ -38,4 +38,4 @@ Follow the full build on Medium:
 
 ## Author
 
-[Fehzz](https://github.com/Fehzz)
+[Fehzz](https://github.com/Fehzz) | [LinkedIn](https://www.linkedin.com/in/fehzanvayani/)
