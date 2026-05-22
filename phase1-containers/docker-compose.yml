@@ -29,6 +29,29 @@ services:
     networks:
       - sre-network
 
+  grafana:
+    image: grafana/grafana
+    ports:
+      - "3000:3000"
+    environment:
+      - GF_SECURITY_ADMIN_PASSWORD=admin
+    volumes:
+      - grafana-storage:/var/lib/grafana
+    networks:
+      - sre-network
+
+  chaos-injector:
+    build: ./chaos-injector
+    networks:
+      - sre-network
+    depends_on:
+      - api-gateway
+      - auth-service
+      - data-service      
+
+volumes:
+  grafana-storage:
+
 networks:
   sre-network:
     driver: bridge
